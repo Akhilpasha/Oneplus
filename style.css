@@ -1,0 +1,1136 @@
+*{
+    margin: 0px;
+}
+
+.first{
+    height: 50px;
+    background-color:black;
+    color: white;
+}
+.firstline{
+    position: absolute;
+    top: 12px;
+    left:40%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    position: sticky;
+    top: auto;
+    left: auto;
+}
+.navbar-brand{
+    position: relative;
+    top: -5px;
+    left: 16px;
+}
+.nav{
+    position: relative;
+    left: 220px;
+}
+.chat-svg{
+    display: inline-block;
+    position:fixed;
+    left: 30px;
+    top: 400px;
+    background-color: white;
+}
+
+/* #chat{
+    display: inline-block;
+    position: sticky;
+    left: 30px;
+} */
+
+.oneplus-10t{
+    display: flex;
+}
+.des{
+    display: block;
+    position:absolute;
+    top: 720px;
+    left: 40px;
+    font-size: 35px;
+}
+.des::first-line{
+    font-size: 24px;
+}
+
+.description{
+    display: inline-block;
+    position: relative;
+    top:360px;
+    left:40px;
+    font-size: 20px;
+}
+.description::first-line{
+    font-size:16px
+    
+}
+
+.oneplus10T-img{
+    position:absolute;
+    top: 730px;
+    left: 460px;
+    transition-duration: 0.3s;
+}
+.oneplus10T-img:hover{
+    transform: scale(1.1);
+}
+
+.buynow-button{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 470px;
+    /* left: -1200px; */
+    right: 340px;
+    background: transparent;
+}
+
+.buynow-button2{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 470px;
+    /* left: -1200px; */
+    right: 250px;
+}
+
+.threeleft{
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    left: 35px;
+    background-color:gainsboro;
+    height: 350px;
+    width: 45%;
+}
+
+.imagination{
+    position:relative;
+    top: 10px;
+    left: 20px;
+}
+
+.onetv{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    position: relative;
+    left: 20px;
+}
+
+.tv-1{
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: -110px;
+    left:340px;
+    transition-duration: 0.3s;
+}
+.tv-1:hover{
+    transform: scale(1.1);
+}
+.Tv-1des{
+    font-size: small;
+    position: relative;
+    top: -200px;
+    left: 20px;
+    font-weight: 500;
+}
+.Tv-1de{
+    font-size:medium;
+    position: relative;
+    top: -210px;
+    left: 20px;
+    font-weight: 500;
+}
+.bton-1{
+    position: relative;
+    top: -200px;
+    left: 20px;
+}
+.bton-2{
+    position: relative;
+    top: 778px;
+    left: 200px;
+}
+
+.threeright{
+    display: inline-block;
+    position: relative;
+    top: 435px;
+    left: 695px;
+    background-color:gainsboro;
+    height: 350px;
+    width: 45%;
+}
+
+.beat{
+    position:relative;
+    top: 10px;
+    left: 20px;
+}
+
+.onebuds{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    position: relative;
+    left: 20px;
+}
+
+.tv-2{
+    height: 300px;
+    width: 260px;
+    position: relative;
+    top: -90px;
+    left:340px;
+    transition-duration: 0.3s;
+}
+.tv-2:hover{
+    transform: scale(1.1);
+}
+.Tv-1des{
+    font-size: small;
+    position: relative;
+    top: -200px;
+    left: 20px;
+    font-weight: 500;
+}
+.Tv-2de{
+    font-size:medium;
+    position: relative;
+    top: -130px;
+    left: 20px;
+    font-weight: 500;
+}
+.bton2-1{
+    position: relative;
+    top: -120px;
+    left: 20px;
+}
+.bton2-2{
+    position: relative;
+    top: 288px;
+    left: 860px;
+}
+
+/* this weeks hot */
+
+.thisweek{
+    display: inline-block;
+    position: relative;
+    top: 350px;
+    left: 40px;
+    font-size:large;
+}
+.hr-1{
+    position: relative;
+    top: 330px;
+    left: 40px;
+    width: 93%;
+}
+/* list */
+
+.list{
+    display: block;
+}
+.unordered li{
+    display: inline;
+    position: relative;
+    top: 350px;
+    left: 50px;
+    
+}
+.unordered>li{
+    margin: 5px;
+    padding: 10px;
+    /* flex-direction:row; */
+}   
+.list-link{
+    text-decoration: none;
+    color: black;
+}
+
+/* stack */
+.tab{
+    display: inline-block;
+    height: 400px;
+    width: 93%;
+    position: relative;
+    top: 350px;
+    left: 45px;
+}
+.trow{
+    height: 400px;
+    width: 80%;
+}
+.td-1{
+    width: 310px;
+    /* border: 1px solid black; */
+}
+.td-2{
+    width: 310px;
+    /* border: 1px solid black; */
+}
+.td-3{
+    width: 310px;
+    /* border: 1px solid black; */
+}
+.td-4{
+    width: 310px;
+    /* border: 1px solid black; */
+}
+
+.li1{
+    height: 300px;
+    width: 250;
+    background-color: lightgray;
+    position: relative;
+    top: -50px;
+
+}
+.device-name{
+    font-family: 'OnePlus Sans Display Light', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.device-des{
+    position: relative ;
+    top: 3px;
+    font-size:small ;
+}
+.device-dis{
+    color: red;
+    font-size:small ;
+}
+.device-btn{
+    border: 0%;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+#device-img{
+    transition-duration: 0.3s;
+}
+#device-img:hover{
+    transform: scale(1.1);
+}
+.device-btn:hover{
+    background-color: black;
+    color:white;
+    transform: scale(1.1);
+}
+strike{
+    color: gray;
+}
+
+/* allproducts */
+.allproducts{
+    display: inline;
+    position: relative;
+    top: 500px;
+    left: 45%;
+}
+.viewall-link{
+    text-decoration: none;
+    color: black;
+}
+
+/* fifth */
+ .fifth{
+    position: relative;
+    top: 500px;
+    background-color: black;
+} 
+.whatsnew{
+     display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size:large;
+    color: white;
+    /* background-color: black; */
+}
+.hr-2{
+    position: relative;
+    top: -5px;
+    left: 40px;
+    width: 93%;
+    color: white;
+    /* background-color: black; */
+}
+.fifth-des{
+    background-color: black;
+    display: block;
+    height: 500px;
+    position: relative;
+    top: 480px;
+}
+.desc{
+    display: inline-block;
+    width: 390px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-weight: 400;
+    color: white;
+}
+.votenow-link{
+    display:inline-block ;
+    position: relative;
+    top:320px ;
+    left: -330px;
+    color: white;
+}
+.oxygen-img{
+    display: flex;
+    position: relative;
+    top: -120px;
+    left: 500px;
+    transition-duration: 0.3s;
+}
+.oxygen-img:hover{
+    transform: scale(1.1);
+}
+
+/* sixth */
+.sixth{
+    display: inline-block;
+    height: 660px;
+    width: 100%;
+    position: relative;
+    top:480px;
+    background-color:black;
+}
+.sixth-1{
+    position: relative;
+    top: 500px;
+    height: 350px;
+    /* background-color: black; */
+} 
+.OnePlus-Featuring{
+     display: inline-block;
+    position: relative;
+    top: -480px;
+    left: 45px;
+    font-size:large;
+    color: white;
+    /* background-color: black; */
+}
+.hr-3{
+    position: relative;
+    top: -500px;
+    left: 40px;
+    width: 93%;
+    color: white;
+    /* background-color: black; */
+}
+.platforms-1{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: -280px;
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+}
+.discover-1{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    top: -296px;
+    color: red;
+    font-weight: 400;
+    font-size: 35px;
+}
+.discover-2{
+    color: red;
+    text-decoration: none;
+}
+.discover-2:hover{
+    text-decoration: underline;
+}
+
+.desc-6{
+    display: inline-block;
+    width: 390px;
+    position: relative;
+    top: -290px;
+    left: 875px;
+    font-weight: 400;
+    color: white;
+}
+.deliver{
+    display:inline-block ;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: -10px ;
+    left: 880px;
+    color: white;
+}
+.featuring-img{
+    display: inline-block;
+    position: relative;
+    top: -460px;
+    left: 50px;
+    transition-duration: 0.3s;
+}
+.featuring-img:hover{
+    transform: scale(1.1);
+}
+.learn{
+    color: white;
+    text-decoration: none;
+}
+.learn:hover{
+    text-decoration: underline;
+}
+
+/* seventh */
+.seventh{
+    display: inline-block;
+    height: 690px;
+    width: 100%;
+    position: relative;
+    top:250px;
+    background-color:black;
+}
+
+.OneTopia{
+     display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    font-size:large;
+    color: white;
+    /* background-color: black; */
+}
+.hr-4{
+    position: relative;
+    top: 0px;
+    left: 40px;
+    width: 93%;
+    color: white;
+}
+.platform-1{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+}
+/* .discover-1{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    top: -296px;
+    color: red;
+    font-weight: 400;
+    font-size: 35px;
+} */
+
+.evolve{
+    display: inline-block;
+    width: 390px;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    font-weight: 400;
+    color: white;
+}
+.discovers{
+    color: white;
+}
+.discovers-1{
+    display:inline-block ;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 290px ;
+    left: 60px;
+    color: white;
+}
+.OneTopia-img{
+    display: inline-block;
+    position: relative;
+    top: -155px;
+    left: 500px;
+    transition-duration: 0.3s;
+}
+.OneTopia-img:hover{
+    transform: scale(1.1);
+}
+.learn{
+    color: white;
+    text-decoration: none;
+}
+.learn:hover{
+    text-decoration: underline;
+}
+
+/* EIGTH */
+.eigth{
+    display: inline-block;
+    height: 420px;
+    width: 659px;
+    position: relative;
+    top:250px;
+    background-color: black;
+}
+#card-1{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    height: 320px;
+}
+#card1-img{
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 0px;
+    height: 320px;
+    transition-duration: 0.3s;
+}
+#card1-img:hover{
+    transform:scale(1.1);
+}
+.card-body{
+    display: inline-block;
+    height: 320px;
+    color: white;
+    background-color: dimgray;
+}
+.card-2{
+    font-weight: 400;
+    color: grey;
+    font-size: large;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 14px;
+}
+.text-muted{
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+/* NINTH */
+.ninth{
+    display: inline-block;
+    height: 430px;
+    width: 683px;
+    position: relative;
+    top:250px;
+    background-color: black;
+}
+#card-11{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    height: 320px;
+}
+#card2-img{
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 0px;
+    height: 320px;
+    transition-duration: 0.3s;
+}
+#card2-img:hover{
+    transform: scale(1.1);
+}
+.card-body1{
+    display: inline-block;
+    height: 320px;
+    color: white;
+    background-color: white;
+}
+.card-22{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-weight: 400;
+    color: grey;
+    font-size: large;
+}
+.card-title1{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 15px;
+    color: black;
+}
+.card-text1{
+    display: inline-block;
+    width: 300px;
+    left: 15px;
+    position: relative;
+    top: 5px;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+.text-muted1{
+    position: relative;
+    top: 0px;
+    color: black;
+}
+
+
+/* tenth */
+.tenth{
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top:240px;
+    background-color:black;
+}
+.tenth-1{
+    position: relative;
+    top: 500px;
+    height: 350px;
+    /* background-color: aqua; */
+} 
+.redcable{
+     display: inline-block;
+    position: relative;
+    top: -480px;
+    left: 45px;
+    font-size:large;
+    color: white;            
+}
+.hr-10{
+    position: relative;
+    top: -500px;
+    left: 40px;
+    width: 93%;
+    color: white;
+}
+.unlock-1{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: -280px;
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+}
+/* .discover-1{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    top: -296px;
+    color: red;
+    font-weight: 400;
+    font-size: 35px;
+}
+.discover-2{
+    color: red;
+    text-decoration: none;
+}
+.discover-2:hover{
+    text-decoration: underline;
+} */
+
+.onecommunity{
+    display: inline-block;
+    width: 390px;
+    position: relative;
+    top: -250px;
+    left: 875px;
+    font-weight: 400;
+    color: white;
+}
+.united{
+    display:inline-block ;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: -10px ;
+    left: 880px;
+    color: white;
+}
+.redcable-img{
+    display: inline-block;
+    position: relative;
+    top: -460px;
+    left: 50px;
+    transition-duration: 0.3s;
+}
+.redcable-img:hover{
+    transform: scale(1.1);
+}
+.join{
+    color: white;
+    text-decoration: none;
+}
+.join:hover{
+    text-decoration: underline;
+}
+
+/* ELEVENTH */
+.eleventh{
+    display: inline-block;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+.current{
+    font-size:large;
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.hr-11{
+    position: relative;
+    top: 25px;
+    left: 40px;
+    width: 93%;
+    color: black;
+}
+.power{
+    display: inline-block;
+    height: 160px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: -90px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.power-img{
+    position: relative;
+    top: 30px;
+    left: 170px;
+    transition-duration: 0.2s;
+}
+.power-img:hover{
+    transform: scale(1.1);
+}
+.ourbiggest{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    font-size: 13px;
+    height: 80px;
+    width: 400px;
+}
+.learn-11{
+    color: black;
+    text-decoration: none;
+}
+.learn-11:hover{
+    text-decoration: underline;
+}
+
+/* Cards 3 */
+.card-group{
+    display: inline-block;
+    width: 90%;
+    position: relative;
+    left: 55px;
+}
+.card{
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    background-color: white;
+}
+.card-body{
+    background-color: white;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 400;
+    background-color: white;
+}
+.card-text{
+    position: relative;
+    top: 30px;
+    color: black;
+}
+.card-img-top{
+    transition-duration: 0.5s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.thirteen{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.support{
+    font-size:large;
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+/* thirteen */
+.thirteen-1{
+    display: inline-block;
+    height: 430px;
+    width: 659px;
+    position: relative;
+    top:10px;
+    background-color: white;
+}
+#thirteencard-1{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    height: 320px;
+}
+#thirteencard1-img{
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 0px;
+    height: 320px;
+    transition-duration: 0.3s;
+}
+#thirteencard1-img:hover{
+    transform:scale(1.1);
+}
+.thirteencard-body{
+    display: inline-block;
+    height: 320px;
+    color: white;
+    background-color: white;
+}
+.thirteencard-2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: 400;
+    color: grey;
+    font-size: large;
+}
+.thirteencard-title{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+.thirteencard-text{
+    position: relative;
+    top: 150px;
+    left: 10px;
+    color: black;
+    font-size: 14px;
+}
+.thirteentext-muted{
+    position: relative;
+    top: 130px;
+    left: 10px;
+    color: black;
+}
+
+/* thirteen-2 */
+.thirteen-2{
+    display: inline-block;
+    height: 430px;
+    width: 683px;
+    position: relative;
+    top:10px;
+    background-color: white;
+}
+#thirteencard-11{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    height: 320px;
+}
+#thirteencard2-img{
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 0px;
+    height: 320px;
+    transition-duration: 0.3s;
+}
+#thirteencard2-img:hover{
+    transform: scale(1.1);
+}
+.thirteencard-body1{
+    display: inline-block;
+    height: 320px;
+    color: white;
+    background-color: white;
+}
+.thirteencard-22{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-weight: 400;
+    color: grey;
+    font-size: large;
+}
+.thirteencard-title1{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 15px;
+    color: black;
+}
+.thirteencard-text1{
+    display: inline-block;
+    width: 300px;
+    left: 15px;
+    position: relative;
+    top: 85px;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+.thirteentext-muted1{
+    position: relative;
+    top: 0px;
+    color: black;
+}
+
+/* FOURTEEN */
+.fourteen{
+    display: inline-block;
+    height: 100px;
+    width: 90%;
+    position: relative;
+    left: 60px;
+    /* background-color: aqua; */
+}
+.table{
+    
+    height: 50px;
+    width: 100%;
+}
+
+/* fifteen */
+.fifteen{
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: black;
+}
+.Stay-connected{
+    display: inline-block;
+   position: relative;
+   top: 10px;
+   left: 45px;
+   font-size:large;
+   color: white;            
+}
+.hr-15{
+   position: relative;
+   top: -10px;
+   left: 40px;
+   width: 93%;
+   color: white;
+}
+#card-15{
+    display: inline-block;
+    height: 200px;
+    width: 450px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.card-title-15{
+    display: inline-block;
+    height: 90px;
+    width: 300px;
+    position: relative;
+    font-size: 30px;
+    font-weight: 300;
+}
+.card-text-15{
+    display: inline-block;
+    height: 20px;
+    width: 300px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 300;
+}
+.app-link{
+    display: inline-block;
+    /* height: 50px;
+    width: 300px; */
+    position: relative;
+    top: 90px;
+    left: 7px;
+    border: 1px solid white;
+    padding: 5px 50px;
+    color: white;
+    text-decoration: none;
+}
+#card-16{
+    display: inline-block;
+    height: 200px;
+    width: 450px;
+    position: relative;
+    top: -305px;
+    left: 700px;
+}
+.card-title-16{
+    display: inline-block;
+    height: 90px;
+    width: 300px;
+    position: relative;
+    font-size: 30px;
+    font-weight: 300;
+}
+.card-text-16{
+    display: inline-block;
+    height: 20px;
+    width: 300px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 300;
+}
+.app-link{
+    display: inline-block;
+    /* height: 50px;
+    width: 300px; */
+    position: relative;
+    top: 90px;
+    left: 7px;
+    border: 1px solid white;
+    padding: 5px 50px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.heads{
+    color: black;
+    text-decoration: none;
+}
+.down{
+    color: grey;
+    text-decoration: none;
+}
+.down:hover{
+    color: black;
+}
