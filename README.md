@@ -1,4 +1,10 @@
 # Oneplus
 A clone Oneplus webpage with all HTML and CSS functions and operations.
 
-https://oneplus-ak.netlify.app/
+## Go Live for this website
+![https://project.akhilpasha.tech](https://oneplus-ak.netlify.app/)
+
+## Done by
+- LinkedIn:[AkhilPasha](https://www.linkedin.com/in/akhilpasha/)
+- Gmail: [akhilpasha704@gmail.com]
+
